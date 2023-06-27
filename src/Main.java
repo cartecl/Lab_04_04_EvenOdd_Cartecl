@@ -2,16 +2,13 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //A program that takes an integer (java int) and uses the modulo function to indicate if the number is odd
+        // or even.  Since we can’t do input in java yet, just hard code the value for the input as a variable instantiation.
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        int numToExamine = 2;
+        int intModulo = numToExamine % 2;
 
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
-        }
+        System.out.println("The number you chose is: " +intModulo);
+
     }
 }
